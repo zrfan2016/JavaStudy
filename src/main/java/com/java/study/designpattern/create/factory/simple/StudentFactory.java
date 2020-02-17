@@ -1,4 +1,4 @@
-package com.java.study.designpattern.create.factory;
+package com.java.study.designpattern.create.factory.simple;
 
 /**
  * @author zrfan

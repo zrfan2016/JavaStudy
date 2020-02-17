@@ -1,9 +1,9 @@
-package com.java.study.designpattern.create.factory;
+package com.java.study.designpattern.create.factory.simple;
 
 /**
  * @author zrfan
  * @className Student
- * @description TODO
+ * @description 学生实体类
  * @date 2020/2/15 22:28
  **/
 public class Student {

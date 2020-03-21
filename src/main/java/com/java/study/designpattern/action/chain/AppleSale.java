@@ -20,7 +20,5 @@ public class AppleSale {
         double price = 3.0d;
 
         System.out.println(farmer.salePrice(price));
-
-
     }
 }

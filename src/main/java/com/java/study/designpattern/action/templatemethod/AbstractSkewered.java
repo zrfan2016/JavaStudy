@@ -10,6 +10,15 @@ public abstract class AbstractSkewered {
 
     private boolean needPeppery = false;
 
+    public void cookSkewered() {
+        prepareMeat();
+        roast();
+        addCondiment();
+        if (needPeppery()) {
+            addPeppery();
+        }
+    }
+
     protected abstract void prepareMeat();
 
     protected abstract void roast();
@@ -22,13 +31,8 @@ public abstract class AbstractSkewered {
 
     protected abstract void addPeppery();
 
-    public void cookSkewered() {
-        prepareMeat();
-        roast();
-        addCondiment();
-        if (needPeppery()) {
-            addPeppery();
-        }
+    public void setNeedPeppery(boolean needPeppery) {
+        this.needPeppery = needPeppery;
     }
 
 

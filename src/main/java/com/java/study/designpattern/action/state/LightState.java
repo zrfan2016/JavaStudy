@@ -6,10 +6,19 @@ package com.java.study.designpattern.action.state;
  * @description TODO
  * @date 2020/4/6 21:21
  **/
-public interface LightState {
+public abstract class LightState {
 
-    void on();
+    private Light light;
 
-    void off();
+    public abstract void on();
 
+    public abstract void off();
+
+    public Light getLight() {
+        return light;
+    }
+
+    public void setLight(Light light) {
+        this.light = light;
+    }
 }

@@ -6,10 +6,13 @@ package com.java.study.designpattern.action.state;
  * @description TODO
  * @date 2020/4/6 21:26
  **/
-public class LightOffState implements LightState {
+public class LightOffState extends LightState {
+
     @Override
     public void on() {
-        System.out.println("开灯");
+        System.out.println("灯开了");
+        super.getLight().setState(Light.ON);
+        // super.getLight().on();
     }
 
     @Override

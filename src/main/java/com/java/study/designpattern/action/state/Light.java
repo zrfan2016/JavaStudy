@@ -8,4 +8,26 @@ package com.java.study.designpattern.action.state;
  **/
 public class Light {
 
+    public static final LightState ON = new LigthOnState();
+    public static final LightState OFF = new LightOffState();
+
+    private LightState state;
+
+    public void on() {
+        this.state.on();
+    }
+
+    public void off() {
+        this.state.off();
+    }
+
+    public LightState getState() {
+        return state;
+    }
+
+    public void setState(LightState state) {
+        this.state = state;
+        this.state.setLight(this);
+    }
+
 }

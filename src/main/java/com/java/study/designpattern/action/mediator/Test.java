@@ -1,4 +1,4 @@
-package com.example.demo.mediator;
+package com.java.study.designpattern.action.mediator;
 
 /**
  * @author zrfan 19042901
@@ -8,31 +8,24 @@ package com.example.demo.mediator;
 public class Test {
 
     public static void main(String[] args) {
-        testAfter();
+        testBefore();
     }
 
     private static void testBefore() {
         Meat meat = new Meat();
         Fruit fruit = new Fruit();
         Clothes clothes = new Clothes();
-
         meat.setClothes(clothes);
         meat.setFruit(fruit);
-
         fruit.setClothes(clothes);
         fruit.setMeat(meat);
-
         clothes.setFruit(fruit);
         clothes.setMeat(meat);
-
         int quantity = 10;
-
         meat.changeFruit(quantity);
         meat.changeClothes(quantity);
-
         fruit.changeMeat(quantity);
         fruit.changeClothes(quantity);
-
         clothes.changeMeat(quantity);
         clothes.changeFruit(quantity);
     }

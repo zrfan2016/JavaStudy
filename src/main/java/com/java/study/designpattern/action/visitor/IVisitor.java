@@ -1,7 +1,7 @@
 package com.java.study.designpattern.action.visitor;
 
 /**
- * @Auther: zrfan
+ * @Author: zrfan
  * @Date: 2020/6/21 15:02
  * @Description: TODO
  */

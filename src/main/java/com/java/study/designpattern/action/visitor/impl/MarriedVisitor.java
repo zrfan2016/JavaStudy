@@ -4,7 +4,7 @@ import com.java.study.designpattern.action.visitor.Home;
 import com.java.study.designpattern.action.visitor.IVisitor;
 
 /**
- * @Auther: zrfan
+ * @Author: zrfan
  * @Date: 2020/6/21 15:08
  * @Description: TODO
  */

@@ -1,7 +1,7 @@
 package com.java.study.designpattern.action.memento;
 
 /**
- * @Auther: zrfan
+ * @Author: zrfan
  * @Date: 2020/6/14 17:31
  * @Description: TODO
  */

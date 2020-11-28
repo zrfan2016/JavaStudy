@@ -1,7 +1,7 @@
 package com.java.study.designpattern.specification;
 
 /**
- * @Auther: zrfan
+ * @Author: zrfan
  * @Date: 2020/8/24 21:57
  * @Description: TODO
  */
